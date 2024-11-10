@@ -2,7 +2,13 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #f4f4f4;
+  background-image: url("../img/estadio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #48ff00;
 }
+
 .boton-jugada {
   background-color: #3498db;
   color: #fff;
@@ -10,7 +16,43 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
 #resultados {
   font-size: 20px;
   margin: 20px 0;
+  color: #48ff00;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#imagenone {
+  height: 300px;
+  width: 300px;
+  background-size:200px,200px; 
+  background-repeat: no-repeat;
+}
+
+#imagentwo {
+  height: 300px;
+  width: 300px;
+  background-size:200px,200px ;
+  background-repeat: no-repeat;
+  position: relative;left: 90px;
+}
+
+#empate {
+  height: 200px;
+  width: 300px;
+  background-size: 300px,300px;
+  background-repeat: no-repeat;
+}
+
+.lista {
+  display: flex;
+  justify-content:space-around;
+  gap: 480px;
+  color: #48ff00;
 }
